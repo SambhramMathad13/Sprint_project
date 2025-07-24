@@ -1,6 +1,8 @@
 package stepdefinitions;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
 import io.cucumber.java.en.*;
 import pages.RegistrationPage;
 import pages.LoginPage;
@@ -64,12 +66,14 @@ public class RegistrationSteps {
         regPage.clickRegister();
     }
 
-    @Then("an appropriate error message should be displayed or registration proceeds accordingly")
-    public void validate_result() {
-        if (regPage.isErrorDisplayed()) {
-            System.out.println("Validation failed as expected.");
-        } else {
-            System.out.println("Registration might be successful or validation skipped.");
-        }
-    }
+@Then("the result should be {string}")
+public void validate_dynamic_result(String expectedMessage) {
+    String actualMessage = regPage.getDisplayedMessage();
+
+    System.out.println("Expected: " + expectedMessage +"||");
+    System.out.println("Actual: " + actualMessage +"||");
+
+    Assert.assertTrue(actualMessage.startsWith(expectedMessage),
+    "Expected message to start with: '" + expectedMessage + "', but got: '" + actualMessage + "'");
+}
 }

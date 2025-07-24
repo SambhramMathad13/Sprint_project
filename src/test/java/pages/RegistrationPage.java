@@ -25,7 +25,8 @@ public class RegistrationPage {
     By btn_registerLink_loc = By.xpath("//*[@id='registerLink']");
     
     
-    By error_msg = By.xpath("//*[@id=\'error\']");
+    By error_msg = By.xpath("//*[@id='error']");
+    By result_msg = By.xpath("//*[@id='result']");
     
     //Action methods
     public void setStudentName(String studentName){
@@ -64,12 +65,25 @@ public class RegistrationPage {
     public void clickregisterLink(){
         driver.findElement(btn_registerLink_loc).click();
     }
-    
-    public boolean isErrorDisplayed() {
-        try {
-            return driver.findElement(error_msg).isDisplayed();
-        } catch (Exception e) {
-            return false;
+
+
+    public String getDisplayedMessage() {
+    try {
+        Thread.sleep(1000); // optional small wait
+
+        String errorText = driver.findElement(error_msg).getText().trim();
+        String resultText = driver.findElement(result_msg).getText().trim();
+
+        if (!errorText.isEmpty()) {
+            return errorText;
+        } else if (!resultText.isEmpty()) {
+            return resultText;
+        } else {
+            return ""; // No message present
         }
+
+    } catch (Exception e) {
+        return "";
     }
+}
 }
