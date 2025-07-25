@@ -1,36 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 61.112 s <<< FAILURE! - in TestSuite
-runners.TestRunner.runScenario["Validate Student Name field", "Student Name Field Validation"](2)  Time elapsed: 7.981 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 4878.' expected [true] but found [false]
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 68.402 s <<< FAILURE! - in TestSuite
+runners.TestRunner.runScenario["Student name has only 1 character", "Student Name Field Validation"](2)  Time elapsed: 11.058 s  <<< FAILURE!
+java.lang.AssertionError: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 5510.' expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ✽.the result should be "Minimum 2 characters required"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ✽.the result should be "Minimum 2 characters required"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:16)
 
-runners.TestRunner.runScenario["Validate Student Name field", "Student Name Field Validation"](4)  Time elapsed: 7.899 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 4880.' expected [true] but found [false]
+runners.TestRunner.runScenario["Student name contains numbers", "Student Name Field Validation"](4)  Time elapsed: 9.129 s  <<< FAILURE!
+java.lang.AssertionError: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 5512.' expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ✽.the result should be "No numbers allowed in student name"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ✽.the result should be "No numbers allowed in student name"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:28)
 
-runners.TestRunner.runScenario["Validate Student Name field", "Student Name Field Validation"](5)  Time elapsed: 7.881 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 4881.' expected [true] but found [false]
+runners.TestRunner.runScenario["Student name contains special characters", "Student Name Field Validation"](5)  Time elapsed: 9.455 s  <<< FAILURE!
+java.lang.AssertionError: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 5513.' expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ✽.the result should be "No special characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ✽.the result should be "No special characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:34)
 
-runners.TestRunner.runScenario["Validate Student Name field", "Student Name Field Validation"](6)  Time elapsed: 8.105 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 4882.' expected [true] but found [false]
+runners.TestRunner.runScenario["Student name exceeds 30 characters", "Student Name Field Validation"](6)  Time elapsed: 9.177 s  <<< FAILURE!
+java.lang.AssertionError: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 5514.' expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ✽.the result should be "Maximum 30 characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ✽.the result should be "Maximum 30 characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:40)
 

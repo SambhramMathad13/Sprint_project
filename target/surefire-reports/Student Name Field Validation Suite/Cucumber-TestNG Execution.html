@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 24 17:03:44 IST 2025</td>
+<td>Started on:</td><td>Fri Jul 25 13:39:10 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>60 seconds (60261 ms)</td>
+<tr><td>Total time:</td><td>67 seconds (67941 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,65 +76,65 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
-<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;No special characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 4881.&apos; expected [true] but found [false]
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;No special characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1028538462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1028538462'><pre>java.lang.AssertionError: Expected message to start with: &apos;No special characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 4881.&apos; expected [true] but found [false]
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name contains special characters", "Student Name Field Validation"</td>
+<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;No special characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 5513.&apos; expected [true] but found [false]
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;No special characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:34)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1291834365", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1291834365'><pre>java.lang.AssertionError: Expected message to start with: &apos;No special characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 5513.&apos; expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;No special characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;No special characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:34)
 </pre></div></td>
-<td>7</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>9</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
-<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;Minimum 2 characters required&apos;, but got: &apos;Registration was successful. The roll number generated is 4878.&apos; expected [true] but found [false]
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;Minimum 2 characters required&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace373342545", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace373342545'><pre>java.lang.AssertionError: Expected message to start with: &apos;Minimum 2 characters required&apos;, but got: &apos;Registration was successful. The roll number generated is 4878.&apos; expected [true] but found [false]
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name exceeds 30 characters", "Student Name Field Validation"</td>
+<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;Maximum 30 characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 5514.&apos; expected [true] but found [false]
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;Maximum 30 characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:40)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1434940020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1434940020'><pre>java.lang.AssertionError: Expected message to start with: &apos;Maximum 30 characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 5514.&apos; expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;Minimum 2 characters required&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;Maximum 30 characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:40)
 </pre></div></td>
-<td>7</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>9</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
-<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;Maximum 30 characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 4882.&apos; expected [true] but found [false]
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;Maximum 30 characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1002400446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1002400446'><pre>java.lang.AssertionError: Expected message to start with: &apos;Maximum 30 characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 4882.&apos; expected [true] but found [false]
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name contains numbers", "Student Name Field Validation"</td>
+<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;No numbers allowed in student name&apos;, but got: &apos;Registration was successful. The roll number generated is 5512.&apos; expected [true] but found [false]
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;No numbers allowed in student name&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:28)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace267061647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace267061647'><pre>java.lang.AssertionError: Expected message to start with: &apos;No numbers allowed in student name&apos;, but got: &apos;Registration was successful. The roll number generated is 5512.&apos; expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;Maximum 30 characters allowed&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;No numbers allowed in student name&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:28)
 </pre></div></td>
-<td>8</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>9</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
-<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;No numbers allowed in student name&apos;, but got: &apos;Registration was successful. The roll number generated is 4880.&apos; expected [true] but found [false]
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;No numbers allowed in student name&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1198450099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1198450099'><pre>java.lang.AssertionError: Expected message to start with: &apos;No numbers allowed in student name&apos;, but got: &apos;Registration was successful. The roll number generated is 4880.&apos; expected [true] but found [false]
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name has only 1 character", "Student Name Field Validation"</td>
+<td><div><pre>java.lang.AssertionError: Expected message to start with: &apos;Minimum 2 characters required&apos;, but got: &apos;Registration was successful. The roll number generated is 5510.&apos; expected [true] but found [false]
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;Minimum 2 characters required&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:16)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace579590740", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace579590740'><pre>java.lang.AssertionError: Expected message to start with: &apos;Minimum 2 characters required&apos;, but got: &apos;Registration was successful. The roll number generated is 5510.&apos; expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:76)
-	at ?.the result should be &quot;No numbers allowed in student name&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:10)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
+	at ?.the result should be &quot;Minimum 2 characters required&quot;(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:16)
 </pre></div></td>
-<td>7</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>11</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -145,20 +145,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name has 2 characters", "Student Name Field Validation"</td>
 <td></td>
-<td>7</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>9</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name is empty", "Student Name Field Validation"</td>
 <td></td>
-<td>7</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>10</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Student Name field", "Student Name Field Validation"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Student name is valid", "Student Name Field Validation"</td>
 <td></td>
-<td>11</td>
-<td>runners.TestRunner@3bb9a3ff</td></tr>
+<td>8</td>
+<td>runners.TestRunner@4f18837a</td></tr>
 </table><p>
 </body>
 </html>
