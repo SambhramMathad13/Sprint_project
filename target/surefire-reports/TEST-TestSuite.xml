@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="68.402" tests="7" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.181" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:/Users/Asus/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Asus\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire13045534618192429743\surefirebooter-20250725133910150_3.jar C:\Users\Asus\AppData\Local\Temp\surefire13045534618192429743 2025-07-25T13-39-09_764-jvmRun1 surefire-20250725133910150_1tmp surefire_0-20250725133910150_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire16941521110847043389\surefirebooter-20250726120901874_3.jar C:\Users\Asus\AppData\Local\Temp\surefire16941521110847043389 2025-07-26T12-09-00_571-jvmRun1 surefire-20250726120901874_1tmp surefire_0-20250726120901874_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Asus\OneDrive\Desktop\Cogni\sprint2\target\test-classes;C:\Users\Asus\OneDrive\Desktop\Cogni\sprint2\target\classes;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Asus\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Asus\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Asus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Asus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\Asus\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Asus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Asus\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Asus\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Asus\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Asus\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Asus\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire13045534618192429743\surefirebooter-20250725133910150_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire16941521110847043389\surefirebooter-20250726120901874_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1"/>
@@ -58,167 +58,47 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Student name is empty&quot;, &quot;Student Name Field Validation&quot;](1)" classname="runners.TestRunner" time="10.821">
+  <testcase name="runScenario[&quot;Click register without entering any data&quot;, &quot;Registration Button&quot;](1)" classname="runners.TestRunner" time="14.94">
+    <failure message="Expected message to start with: &apos;Provide value for all fields&apos;, but got: &apos;Provide value for student name, Provide value for mobile number, Provide value for email id, Provide value for cgpa, Provide value for department name, Provide value for backlog count,&apos; expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected message to start with: 'Provide value for all fields', but got: 'Provide value for student name, Provide value for mobile number, Provide value for email id, Provide value for cgpa, Provide value for department name, Provide value for backlog count,' expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:81)
+	at ✽.the result should be "Provide value for all fields"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/register_button.feature:6)
+]]></failure>
     <system-out><![CDATA[
-Scenario: Student name is empty                              # src/test/resources/features/registration.feature:6
-  Given the user is on the registration page                 # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "" into the student name field        # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                 # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                             # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "Provide value for student name" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
+Scenario: Click register without entering any data                  # src/test/resources/features/register_button.feature:3
+  Given the user is on the registration page                        # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
+  When the user clicks the register button without filling the form # stepdefinitions.RegistrationButtonSteps.user_clicks_register_without_data()
+  Then the result should be "Provide value for all fields"          # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
+      java.lang.AssertionError: Expected message to start with: 'Provide value for all fields', but got: 'Provide value for student name, Provide value for mobile number, Provide value for email id, Provide value for cgpa, Provide value for department name, Provide value for backlog count,' expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:81)
+	at âœ½.the result should be "Provide value for all fields"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/register_button.feature:6)
+
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jul 25, 2025 1:39:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 26, 2025 12:09:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:39:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 26, 2025 12:09:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Student name has only 1 character&quot;, &quot;Student Name Field Validation&quot;](2)" classname="runners.TestRunner" time="11.058">
-    <failure message="Expected message to start with: &apos;Minimum 2 characters required&apos;, but got: &apos;Registration was successful. The roll number generated is 5510.&apos; expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 5510.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "Minimum 2 characters required"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:16)
-]]></failure>
+  <testcase name="runScenario[&quot;Click register with valid student name&quot;, &quot;Registration Button&quot;](2)" classname="runners.TestRunner" time="11.99">
     <system-out><![CDATA[
-Scenario: Student name has only 1 character                 # src/test/resources/features/registration.feature:12
-  Given the user is on the registration page                # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "A" into the student name field      # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                            # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "Minimum 2 characters required" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
-      java.lang.AssertionError: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 5510.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at âœ½.the result should be "Minimum 2 characters required"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:16)
-
+Scenario: Click register with valid student name          # src/test/resources/features/register_button.feature:8
+  Given the user is on the registration page              # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
+  When the user enters all the fiels with valid data      # stepdefinitions.RegistrationButtonSteps.enter_all_valid_fields_from_properties()
+  And clicks the register button                          # stepdefinitions.RegistrationSteps.clicks_register_button()
+  Then the result should be "Registration was successful" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Jul 25, 2025 1:39:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 26, 2025 12:09:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:39:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Student name has 2 characters&quot;, &quot;Student Name Field Validation&quot;](3)" classname="runners.TestRunner" time="9.049">
-    <system-out><![CDATA[
-Scenario: Student name has 2 characters                                              # src/test/resources/features/registration.feature:18
-  Given the user is on the registration page                                         # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "Ab" into the student name field                              # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                                         # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                                                     # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "Registration was successful. The roll number generated" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
-]]></system-out>
-    <system-err><![CDATA[Jul 25, 2025 1:39:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:39:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Student name contains numbers&quot;, &quot;Student Name Field Validation&quot;](4)" classname="runners.TestRunner" time="9.129">
-    <failure message="Expected message to start with: &apos;No numbers allowed in student name&apos;, but got: &apos;Registration was successful. The roll number generated is 5512.&apos; expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 5512.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "No numbers allowed in student name"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:28)
-]]></failure>
-    <system-out><![CDATA[
-Scenario: Student name contains numbers                          # src/test/resources/features/registration.feature:24
-  Given the user is on the registration page                     # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "John123" into the student name field     # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                     # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                                 # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "No numbers allowed in student name" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
-      java.lang.AssertionError: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 5512.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at âœ½.the result should be "No numbers allowed in student name"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:28)
-
-]]></system-out>
-    <system-err><![CDATA[Jul 25, 2025 1:39:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:39:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Student name contains special characters&quot;, &quot;Student Name Field Validation&quot;](5)" classname="runners.TestRunner" time="9.455">
-    <failure message="Expected message to start with: &apos;No special characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 5513.&apos; expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 5513.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "No special characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:34)
-]]></failure>
-    <system-out><![CDATA[
-Scenario: Student name contains special characters          # src/test/resources/features/registration.feature:30
-  Given the user is on the registration page                # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "@John!" into the student name field # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                            # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "No special characters allowed" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
-      java.lang.AssertionError: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 5513.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at âœ½.the result should be "No special characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:34)
-
-]]></system-out>
-    <system-err><![CDATA[Jul 25, 2025 1:39:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:39:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Student name exceeds 30 characters&quot;, &quot;Student Name Field Validation&quot;](6)" classname="runners.TestRunner" time="9.177">
-    <failure message="Expected message to start with: &apos;Maximum 30 characters allowed&apos;, but got: &apos;Registration was successful. The roll number generated is 5514.&apos; expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 5514.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "Maximum 30 characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:40)
-]]></failure>
-    <system-out><![CDATA[
-Scenario: Student name exceeds 30 characters                                              # src/test/resources/features/registration.feature:36
-  Given the user is on the registration page                                              # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "Johnathan Edward Christopher Maxwell" into the student name field # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                                              # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                                                          # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "Maximum 30 characters allowed"                               # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
-      java.lang.AssertionError: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 5514.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at âœ½.the result should be "Maximum 30 characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:40)
-
-]]></system-out>
-    <system-err><![CDATA[Jul 25, 2025 1:40:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:40:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Student name is valid&quot;, &quot;Student Name Field Validation&quot;](7)" classname="runners.TestRunner" time="8.825">
-    <system-out><![CDATA[
-Scenario: Student name is valid                                                      # src/test/resources/features/registration.feature:42
-  Given the user is on the registration page                                         # stepdefinitions.RegistrationSteps.the_user_is_on_registration_page()
-  When the user enters "John Smith" into the student name field                      # stepdefinitions.RegistrationSteps.the_user_enters_into_student_name(java.lang.String)
-  And fills all other fields with valid data                                         # stepdefinitions.RegistrationSteps.fill_other_fields()
-  And clicks the register button                                                     # stepdefinitions.RegistrationSteps.clicks_register_button()
-  Then the result should be "Registration was successful. The roll number generated" # stepdefinitions.RegistrationSteps.validate_dynamic_result(java.lang.String)
-]]></system-out>
-    <system-err><![CDATA[Jul 25, 2025 1:40:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 138
-Jul 25, 2025 1:40:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jul 26, 2025 12:09:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 138.0.7204.158. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

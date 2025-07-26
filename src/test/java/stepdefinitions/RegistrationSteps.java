@@ -54,11 +54,12 @@ public class RegistrationSteps {
 
     @And("fills all other fields with valid data")
     public void fill_other_fields() {
-        regPage.setMobileNumber("9876543210");
-        regPage.setEmailId("test@example.com");
-        regPage.setCgpa("8.5");
-        regPage.setDepartment("CSE");
-        regPage.setBacklogCount("1");
+
+        regPage.setMobileNumber(ConfigReader.getProperty("mobile"));
+        regPage.setEmailId(ConfigReader.getProperty("email"));
+        regPage.setCgpa(ConfigReader.getProperty("cgpa"));
+        regPage.setDepartment(ConfigReader.getProperty("department"));
+        regPage.setBacklogCount(ConfigReader.getProperty("backlog"));
 
         test.log(Status.INFO, "Filled other fields with valid data.");
     }

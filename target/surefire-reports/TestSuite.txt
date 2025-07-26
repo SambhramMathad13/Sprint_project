@@ -1,36 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 68.402 s <<< FAILURE! - in TestSuite
-runners.TestRunner.runScenario["Student name has only 1 character", "Student Name Field Validation"](2)  Time elapsed: 11.058 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 5510.' expected [true] but found [false]
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.181 s <<< FAILURE! - in TestSuite
+runners.TestRunner.runScenario["Click register without entering any data", "Registration Button"](1)  Time elapsed: 14.94 s  <<< FAILURE!
+java.lang.AssertionError: Expected message to start with: 'Provide value for all fields', but got: 'Provide value for student name, Provide value for mobile number, Provide value for email id, Provide value for cgpa, Provide value for department name, Provide value for backlog count,' expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "Minimum 2 characters required"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:16)
-
-runners.TestRunner.runScenario["Student name contains numbers", "Student Name Field Validation"](4)  Time elapsed: 9.129 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 5512.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "No numbers allowed in student name"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:28)
-
-runners.TestRunner.runScenario["Student name contains special characters", "Student Name Field Validation"](5)  Time elapsed: 9.455 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 5513.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "No special characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:34)
-
-runners.TestRunner.runScenario["Student name exceeds 30 characters", "Student Name Field Validation"](6)  Time elapsed: 9.177 s  <<< FAILURE!
-java.lang.AssertionError: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 5514.' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:97)
-	at ✽.the result should be "Maximum 30 characters allowed"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/registration.feature:40)
+	at stepdefinitions.RegistrationSteps.validate_dynamic_result(RegistrationSteps.java:81)
+	at ✽.the result should be "Provide value for all fields"(file:///C:/Users/Asus/OneDrive/Desktop/Cogni/sprint2/src/test/resources/features/register_button.feature:6)
 
