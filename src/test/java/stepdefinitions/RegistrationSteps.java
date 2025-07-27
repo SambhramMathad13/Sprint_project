@@ -20,7 +20,6 @@ public class RegistrationSteps {
 
     @Given("the user is on the registration page")
     public void the_user_is_on_registration_page() {
-        try {
             String baseUrl = ConfigReader.getProperty("baseUrl");
             driver.get(baseUrl);
 
@@ -28,22 +27,10 @@ public class RegistrationSteps {
             loginPage.setUsername(ConfigReader.getProperty("username"));
             loginPage.setPassword(ConfigReader.getProperty("password"));
             loginPage.clickSignIn();
-
-            Thread.sleep(3000);
-
             regPage.clickFaculty();
-            Thread.sleep(1000);
-
             regPage.clickStudent();
-            Thread.sleep(1000);
-
             regPage.clickregisterLink();
-
             test.log(Status.PASS, "User navigated to the registration page successfully.");
-        } catch (Exception e) {
-            test.log(Status.FAIL, "Failed to reach registration page: " + e.getMessage());
-            Assert.fail("Navigation failed: " + e.getMessage());
-        }
     }
 
     @When("the user enters {string} into the student name field")

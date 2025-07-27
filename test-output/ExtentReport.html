@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 25, 2025 01:39:11 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 27, 2025 08:15:20 PM</span></a>
 </li>
 </ul>
 </div>
@@ -75,14 +75,94 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Student name is empty</p>
+            <p class="name">Click register without entering any data</p>
             <p class="text-sm">
-              <span>1:39:11 PM</span> / <span>00:00:10:323</span>
+              <span>8:15:20 PM</span> / <span>00:00:05:037</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Click register without entering any data</h5>
+<span class='badge badge-success'>07.27.2025 8:15:20 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:25 PM</span>
+<span class='badge badge-default'>00:00:05:037</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../screenshots/Click_register_without_entering_any_data.png' src="../screenshots/Click_register_without_entering_any_data.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:15:23 PM</td>
+        <td>
+          User navigated to the registration page successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:23 PM</td>
+        <td>
+          Clicked the register button without filling any data.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:24 PM</td>
+        <td>
+          Expected: Provide value for all fields
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:24 PM</td>
+        <td>
+          Actual: Provide value for student name, Provide value for mobile number, Provide value for email id, Provide value for cgpa, Provide value for department name, Provide value for backlog count,
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:15:24 PM</td>
+        <td>
+          Validation Failed: Expected message to start with: 'Provide value for all fields', but got: 'Provide value for student name, Provide value for mobile number, Provide value for email id, Provide value for cgpa, Provide value for department name, Provide value for backlog count,' expected [true] but found [false]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:15:25 PM</td>
+        <td>
+          Scenario failed. Screenshot attached.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Click register with valid student name</p>
+            <p class="text-sm">
+              <span>8:15:25 PM</span> / <span>00:00:04:352</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -90,11 +170,11 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Student name is empty</h5>
-<span class='badge badge-success'>07.25.2025 1:39:11 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:39:21 PM</span>
-<span class='badge badge-default'>00:00:10:323</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<h5 class="test-status text-pass">Click register with valid student name</h5>
+<span class='badge badge-success'>07.27.2025 8:15:25 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:30 PM</span>
+<span class='badge badge-default'>00:00:04:352</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -106,56 +186,49 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:20 PM</td>
+        <td>8:15:28 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:20 PM</td>
+        <td>8:15:28 PM</td>
         <td>
-          Entered student name: 
+          Filled all fields using valid data from property file.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:20 PM</td>
-        <td>
-          Filled other fields with valid data.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:20 PM</td>
+        <td>8:15:29 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:21 PM</td>
+        <td>8:15:30 PM</td>
         <td>
-          Expected: Provide value for student name
+          Expected: Registration was successful
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:21 PM</td>
+        <td>8:15:30 PM</td>
         <td>
-          Actual: Provide value for student name,
+          Actual: Registration was successful. The roll number generated is 6699.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:21 PM</td>
+        <td>8:15:30 PM</td>
         <td>
           Validation Passed. Actual message starts with expected message.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:21 PM</td>
+        <td>8:15:30 PM</td>
         <td>
           Scenario passed successfully.
         </td>
@@ -165,14 +238,104 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Student name is empty</p>
+            <p class="text-sm">
+              <span>8:15:30 PM</span> / <span>00:00:04:009</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Student name is empty</h5>
+<span class='badge badge-success'>07.27.2025 8:15:30 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:34 PM</span>
+<span class='badge badge-default'>00:00:04:009</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:15:32 PM</td>
+        <td>
+          User navigated to the registration page successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:32 PM</td>
+        <td>
+          Entered student name: 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:33 PM</td>
+        <td>
+          Filled other fields with valid data.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:33 PM</td>
+        <td>
+          Clicked the register button.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:34 PM</td>
+        <td>
+          Expected: Provide value for student name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:15:34 PM</td>
+        <td>
+          Actual: Provide value for student name,
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:15:34 PM</td>
+        <td>
+          Validation Passed. Actual message starts with expected message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:15:34 PM</td>
+        <td>
+          Scenario passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Student name has only 1 character</p>
             <p class="text-sm">
-              <span>1:39:22 PM</span> / <span>00:00:10:898</span>
+              <span>8:15:34 PM</span> / <span>00:00:04:575</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -181,10 +344,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Student name has only 1 character</h5>
-<span class='badge badge-success'>07.25.2025 1:39:22 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:39:32 PM</span>
-<span class='badge badge-default'>00:00:10:898</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-success'>07.27.2025 8:15:34 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:39 PM</span>
+<span class='badge badge-default'>00:00:04:575</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -200,56 +363,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:30 PM</td>
+        <td>8:15:37 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:31 PM</td>
+        <td>8:15:37 PM</td>
         <td>
           Entered student name: A
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:31 PM</td>
+        <td>8:15:37 PM</td>
         <td>
           Filled other fields with valid data.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:31 PM</td>
+        <td>8:15:37 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:32 PM</td>
+        <td>8:15:38 PM</td>
         <td>
           Expected: Minimum 2 characters required
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:32 PM</td>
+        <td>8:15:38 PM</td>
         <td>
-          Actual: Registration was successful. The roll number generated is 5510.
+          Actual: Registration was successful. The roll number generated is 6700.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:39:32 PM</td>
+        <td>8:15:38 PM</td>
         <td>
-          Validation Failed: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 5510.' expected [true] but found [false]
+          Validation Failed: Expected message to start with: 'Minimum 2 characters required', but got: 'Registration was successful. The roll number generated is 6700.' expected [true] but found [false]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:39:32 PM</td>
+        <td>8:15:39 PM</td>
         <td>
           Scenario failed. Screenshot attached.
         </td>
@@ -259,14 +422,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="pass" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Student name has 2 characters</p>
             <p class="text-sm">
-              <span>1:39:33 PM</span> / <span>00:00:08:856</span>
+              <span>8:15:39 PM</span> / <span>00:00:04:066</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -275,10 +438,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Student name has 2 characters</h5>
-<span class='badge badge-success'>07.25.2025 1:39:33 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:39:41 PM</span>
-<span class='badge badge-default'>00:00:08:856</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-success'>07.27.2025 8:15:39 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:43 PM</span>
+<span class='badge badge-default'>00:00:04:066</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -290,56 +453,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:40 PM</td>
+        <td>8:15:41 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:40 PM</td>
+        <td>8:15:41 PM</td>
         <td>
           Entered student name: Ab
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:40 PM</td>
+        <td>8:15:42 PM</td>
         <td>
           Filled other fields with valid data.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:40 PM</td>
+        <td>8:15:42 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:41 PM</td>
+        <td>8:15:43 PM</td>
         <td>
           Expected: Registration was successful. The roll number generated
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:41 PM</td>
+        <td>8:15:43 PM</td>
         <td>
-          Actual: Registration was successful. The roll number generated is 5511.
+          Actual: Registration was successful. The roll number generated is 6701.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:41 PM</td>
+        <td>8:15:43 PM</td>
         <td>
           Validation Passed. Actual message starts with expected message.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:41 PM</td>
+        <td>8:15:43 PM</td>
         <td>
           Scenario passed successfully.
         </td>
@@ -349,14 +512,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="4"
+        <li class="test-item"  status="fail" test-id="6"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Student name contains numbers</p>
             <p class="text-sm">
-              <span>1:39:42 PM</span> / <span>00:00:08:926</span>
+              <span>8:15:43 PM</span> / <span>00:00:04:539</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -365,10 +528,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Student name contains numbers</h5>
-<span class='badge badge-success'>07.25.2025 1:39:42 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:39:51 PM</span>
-<span class='badge badge-default'>00:00:08:926</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-success'>07.27.2025 8:15:43 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:48 PM</span>
+<span class='badge badge-default'>00:00:04:539</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -384,56 +547,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:49 PM</td>
+        <td>8:15:46 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:49 PM</td>
+        <td>8:15:46 PM</td>
         <td>
           Entered student name: John123
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:49 PM</td>
+        <td>8:15:46 PM</td>
         <td>
           Filled other fields with valid data.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:49 PM</td>
+        <td>8:15:46 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:50 PM</td>
+        <td>8:15:47 PM</td>
         <td>
           Expected: No numbers allowed in student name
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:50 PM</td>
+        <td>8:15:47 PM</td>
         <td>
-          Actual: Registration was successful. The roll number generated is 5512.
+          Actual: Registration was successful. The roll number generated is 6702.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:39:50 PM</td>
+        <td>8:15:47 PM</td>
         <td>
-          Validation Failed: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 5512.' expected [true] but found [false]
+          Validation Failed: Expected message to start with: 'No numbers allowed in student name', but got: 'Registration was successful. The roll number generated is 6702.' expected [true] but found [false]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:39:51 PM</td>
+        <td>8:15:48 PM</td>
         <td>
           Scenario failed. Screenshot attached.
         </td>
@@ -443,14 +606,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="5"
+        <li class="test-item"  status="fail" test-id="7"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Student name contains special characters</p>
             <p class="text-sm">
-              <span>1:39:51 PM</span> / <span>00:00:09:254</span>
+              <span>8:15:48 PM</span> / <span>00:00:04:707</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -459,10 +622,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Student name contains special characters</h5>
-<span class='badge badge-success'>07.25.2025 1:39:51 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:40:00 PM</span>
-<span class='badge badge-default'>00:00:09:254</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-success'>07.27.2025 8:15:48 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:52 PM</span>
+<span class='badge badge-default'>00:00:04:707</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -478,56 +641,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:39:58 PM</td>
+        <td>8:15:51 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:58 PM</td>
+        <td>8:15:51 PM</td>
         <td>
           Entered student name: @John!
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:58 PM</td>
+        <td>8:15:51 PM</td>
         <td>
           Filled other fields with valid data.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:39:58 PM</td>
+        <td>8:15:51 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:00 PM</td>
+        <td>8:15:52 PM</td>
         <td>
           Expected: No special characters allowed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:00 PM</td>
+        <td>8:15:52 PM</td>
         <td>
-          Actual: Registration was successful. The roll number generated is 5513.
+          Actual: Registration was successful. The roll number generated is 6703.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:40:00 PM</td>
+        <td>8:15:52 PM</td>
         <td>
-          Validation Failed: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 5513.' expected [true] but found [false]
+          Validation Failed: Expected message to start with: 'No special characters allowed', but got: 'Registration was successful. The roll number generated is 6703.' expected [true] but found [false]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:40:00 PM</td>
+        <td>8:15:52 PM</td>
         <td>
           Scenario failed. Screenshot attached.
         </td>
@@ -537,14 +700,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="6"
+        <li class="test-item"  status="fail" test-id="8"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Student name exceeds 30 characters</p>
             <p class="text-sm">
-              <span>1:40:00 PM</span> / <span>00:00:08:981</span>
+              <span>8:15:53 PM</span> / <span>00:00:04:726</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -553,10 +716,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Student name exceeds 30 characters</h5>
-<span class='badge badge-success'>07.25.2025 1:40:00 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:40:09 PM</span>
-<span class='badge badge-default'>00:00:08:981</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-success'>07.27.2025 8:15:53 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:15:57 PM</span>
+<span class='badge badge-default'>00:00:04:726</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -572,56 +735,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:40:07 PM</td>
+        <td>8:15:55 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:07 PM</td>
+        <td>8:15:55 PM</td>
         <td>
           Entered student name: Johnathan Edward Christopher Maxwell
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:08 PM</td>
+        <td>8:15:56 PM</td>
         <td>
           Filled other fields with valid data.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:08 PM</td>
+        <td>8:15:56 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:09 PM</td>
+        <td>8:15:57 PM</td>
         <td>
           Expected: Maximum 30 characters allowed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:09 PM</td>
+        <td>8:15:57 PM</td>
         <td>
-          Actual: Registration was successful. The roll number generated is 5514.
+          Actual: Registration was successful. The roll number generated is 6704.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:40:09 PM</td>
+        <td>8:15:57 PM</td>
         <td>
-          Validation Failed: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 5514.' expected [true] but found [false]
+          Validation Failed: Expected message to start with: 'Maximum 30 characters allowed', but got: 'Registration was successful. The roll number generated is 6704.' expected [true] but found [false]
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:40:09 PM</td>
+        <td>8:15:57 PM</td>
         <td>
           Scenario failed. Screenshot attached.
         </td>
@@ -631,14 +794,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="7"
+        <li class="test-item"  status="pass" test-id="9"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Student name is valid</p>
             <p class="text-sm">
-              <span>1:40:09 PM</span> / <span>00:00:08:665</span>
+              <span>8:15:58 PM</span> / <span>00:00:04:127</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -647,10 +810,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Student name is valid</h5>
-<span class='badge badge-success'>07.25.2025 1:40:09 PM</span>
-<span class='badge badge-danger'>07.25.2025 1:40:18 PM</span>
-<span class='badge badge-default'>00:00:08:665</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-success'>07.27.2025 8:15:58 PM</span>
+<span class='badge badge-danger'>07.27.2025 8:16:02 PM</span>
+<span class='badge badge-default'>00:00:04:127</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -662,56 +825,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:40:17 PM</td>
+        <td>8:16:00 PM</td>
         <td>
           User navigated to the registration page successfully.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:17 PM</td>
+        <td>8:16:00 PM</td>
         <td>
           Entered student name: John Smith
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:17 PM</td>
+        <td>8:16:01 PM</td>
         <td>
           Filled other fields with valid data.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:17 PM</td>
+        <td>8:16:01 PM</td>
         <td>
           Clicked the register button.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:18 PM</td>
+        <td>8:16:02 PM</td>
         <td>
           Expected: Registration was successful. The roll number generated
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:40:18 PM</td>
+        <td>8:16:02 PM</td>
         <td>
-          Actual: Registration was successful. The roll number generated is 5515.
+          Actual: Registration was successful. The roll number generated is 6705.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:40:18 PM</td>
+        <td>8:16:02 PM</td>
         <td>
           Validation Passed. Actual message starts with expected message.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:40:18 PM</td>
+        <td>8:16:02 PM</td>
         <td>
           Scenario passed successfully.
         </td>
@@ -735,25 +898,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 25, 2025 01:39:11 PM</h3>
+<h3>Jul 27, 2025 08:15:20 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 25, 2025 01:40:18 PM</h3>
+<h3>Jul 27, 2025 08:16:02 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>3</h3>
+<h3>4</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>4</h3>
+<h3>5</h3>
 </div></div>
 </div>
 </div>
@@ -769,12 +932,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='42%'>
-<b>3</b> tests passed
+<div><small data-tooltip='44%'>
+<b>4</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='57%'><b>4</b> tests failed,
+<small data-tooltip='55%'><b>5</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -792,10 +955,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='23%'><b>13</b> events passed</small></div>
+<div><small data-tooltip='24%'><b>17</b> events passed</small></div>
 <div>
-<small data-tooltip='14%'><b>8</b> events failed,
-<b data-tooltip='%'>35</b> others
+<small data-tooltip='14%'><b>10</b> events failed,
+<b data-tooltip='%'>42</b> others
 </small>
 </div>
 </div>
@@ -811,7 +974,7 @@
 </div></div>
 <script>
 var timeline = {
-"Student name is empty":10.323,"Student name has only 1 character":10.898,"Student name has 2 characters":8.856,"Student name contains numbers":8.926,"Student name contains special characters":9.254,"Student name exceeds 30 characters":8.981,"Student name is valid":8.665
+"Click register without entering any data":5.037,"Click register with valid student name":4.352,"Student name is empty":4.009,"Student name has only 1 character":4.575,"Student name has 2 characters":4.066,"Student name contains numbers":4.539,"Student name contains special characters":4.707,"Student name exceeds 30 characters":4.726,"Student name is valid":4.127
 };
 </script>
 <div class="row">
@@ -820,8 +983,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 3,
-failParent: 4,
+passParent: 4,
+failParent: 5,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -837,11 +1000,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 13,
-failEvents: 8,
+passEvents: 17,
+failEvents: 10,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 35
+infoEvents: 42
 };
 </script>        </div>
       </div>

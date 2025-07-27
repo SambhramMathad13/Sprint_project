@@ -1,14 +1,21 @@
 package pages;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebDriver;
+
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 
 public class RegistrationPage {
 
     WebDriver driver;
+    WebDriverWait wait;
     //Constructor
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // 10 sec wait
     }
 
     //Locators
@@ -57,19 +64,20 @@ public class RegistrationPage {
         driver.findElement(btn_register_loc).click();
     }
     public void clickStudent(){
-        driver.findElement(btn_student_loc).click();
+        wait.until(ExpectedConditions.elementToBeClickable(btn_student_loc)).click();
     }
+    
     public void clickFaculty(){
-        driver.findElement(btn_faculty_loc).click();
+        wait.until(ExpectedConditions.elementToBeClickable(btn_faculty_loc)).click();
     }
     public void clickregisterLink(){
-        driver.findElement(btn_registerLink_loc).click();
+        wait.until(ExpectedConditions.elementToBeClickable(btn_registerLink_loc)).click();
     }
 
 
     public String getDisplayedMessage() {
     try {
-        Thread.sleep(1000); // optional small wait
+        Thread.sleep(1000);
 
         String errorText = driver.findElement(error_msg).getText().trim();
         String resultText = driver.findElement(result_msg).getText().trim();
